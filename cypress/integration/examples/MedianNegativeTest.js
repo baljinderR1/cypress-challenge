@@ -4,7 +4,7 @@ describe("Median check of prime numbers with negative inputs", function (){
 
   //This test is giving invalid results when we give negative numbers and it is shwowing blank result consistently 
   //like The median is : [,] 
-  //Suggestion: we should see a warning message when we give negative number
+  //Suggestion: we should see a warning message when we give negative number.
 
     it ('median check with negative inputs', function(){
     
@@ -15,8 +15,7 @@ describe("Median check of prime numbers with negative inputs", function (){
         {
         cy.get('[type=number]').type(randomNumber()) 
         cy.get('[type=submit]').click()     
-        
-    
+          
     function randomNumber() {
         var num
         var i

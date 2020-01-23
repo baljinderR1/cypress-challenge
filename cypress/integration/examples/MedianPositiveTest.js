@@ -2,7 +2,7 @@
 
 describe("Median check of prime numbers", function (){
 
-// this test is passsing when giving single number 
+// this test is passsing when giving single number. 
 it ('median check with given single input', function(){
 
     cy.visit("http://localhost:3000/")
