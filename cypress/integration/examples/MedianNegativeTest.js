@@ -31,6 +31,7 @@ describe("Median check of prime numbers with negative inputs", function (){
     })
 
     // This test is failing because UI is not showing any warning message in case we don't give any input and press submit button by mistake
+    // UI got stuck in progress and we need to press refereh button to make it active 
     // Suggestion : we should see a warning message when user don't give any input
      it ('median check with blank input', function(){
         
